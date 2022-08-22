@@ -1,0 +1,16 @@
+#!/bin/sh
+exec tail -n +3 $0
+# This file provides an easy way to add custom menu entries.  Simply type the
+# menu entries you want to add after this comment.  Be careful not to change
+# the 'exec tail' line above.
+# Begin /boot/grub/grub.cfg
+set default=0
+set timeout=5
+
+insmod part_gpt
+insmod ext2
+set root='hd1,gpt1'
+
+menuentry "ft_linux, Linux 4.15.3-lumenthi" {
+linux /vmlinuz-4.15.3-lumenthi root=/dev/sdb2
+}
