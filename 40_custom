@@ -12,5 +12,5 @@ insmod ext2
 set root='hd1,gpt1'
 
 menuentry "ft_linux, Linux 4.15.3-lumenthi" {
-linux /vmlinuz-4.15.3-lumenthi root=/dev/sdb2
+	linux /vmlinuz-4.15.3-lumenthi root=/dev/sdb2
 }
