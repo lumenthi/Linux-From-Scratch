@@ -17,8 +17,6 @@ sudo passwd lfs
 sudo chown -v lfs $LFS
 sudo chown -v lfs $LFS/{usr{,/*},lib,var,etc,bin,sbin,tools}
 
-su - lfs
-
 # Chroot LFS
 sudo chroot "/mnt/lfs" /usr/bin/env -i HOME=/root TERM="$TERM" PS1='(lfs chroot) \u:\w\$ ' PATH=/bin:/usr/bin:/sbin:/usr/sbin HOSTTYPE='4.15.3' /bin/bash --login
 
