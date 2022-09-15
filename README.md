@@ -4,7 +4,7 @@ Building your own custom Linux system
 ![lfs](demo.gif)
 
 ## Description
-- Unfortunately, due to the size of the image, i'm not able to upload it in github
+- Unfortunately, due to the size of the image, i'm not able to upload it on github
 - Manual written writeup is available through the writeup folder with all detailed steps
 ### Version
 - This system uses a compiled Linux kernel in its version 4.15.3
