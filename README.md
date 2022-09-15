@@ -9,7 +9,7 @@ Building your own custom Linux system
 ### Version
 - This system uses a compiled Linux kernel in its version 4.15.3
 ### Disks
-- There is 3 partitions on the system (root, /boot, swap)
+- There are 3 partitions on the system (root, /boot, swap)
 ```
 $ lsblk
 NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
